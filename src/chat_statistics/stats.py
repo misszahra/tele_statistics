@@ -52,9 +52,9 @@ class ChatStatistics:
 
         # Generate word cloud 
         logger.info("Generating word cloud.... ")
-        wordcloud = WordCloud(
+        wordcloud=WordCloud(
             background_color='white',
-            font_path= str(DATA_DIR/'BHoma.ttf'), 
+            font_path=str(DATA_DIR/'BHoma.ttf'), 
             width=1200, 
             height=1200,
             max_font_size=200,
