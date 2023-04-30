@@ -1,0 +1,4 @@
+pathlib==1.0.1
+hazm==0.7.0
+wordcloud==1.8.1
+arabic-reshaper==3.0.0
